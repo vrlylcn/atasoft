@@ -303,6 +303,10 @@ body {
   border: 1px solid #cacaca;
 }
 
+.home-news__item:hover .home-news__picture {
+  border-color: #03203b;
+}
+
 .home-news__title {
   display: block;
   margin: 0;
