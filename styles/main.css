@@ -263,6 +263,8 @@ body {
   margin-top: 60px;
   padding-top: 55px;
   padding-bottom: 60px;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
   background: url("../images/bg-news.jpg") no-repeat center top;
 }
 
