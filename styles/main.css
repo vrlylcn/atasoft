@@ -327,3 +327,26 @@ body {
   font-size: 14px;
   line-height: 22px;
 }
+
+/* - Home Referances - */
+.home-referances {
+  margin-top: 50px;
+}
+
+.home-referances__list {
+  margin-top: 50px;
+}
+
+.home-referances__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 100px;
+  background: url("../images/bg-referance.png") no-repeat center top;
+}
+
+.home-referances__logo {
+  width: auto !important;
+  height: auto !important;
+}

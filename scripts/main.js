@@ -1,5 +1,5 @@
 $(function() {
-  $(".owl-carousel").owlCarousel({
+  $(".js-home-slider").owlCarousel({
     items: 1,
     nav: true,
     navText: [
@@ -7,5 +7,12 @@ $(function() {
       '<img src="/images/icon-slider-next.png" width="40" height="95" alt="Sonraki Kampanya" />'
     ],
     dots: false
+  });
+
+  $(".js-home-referances").owlCarousel({
+    items: 4,
+    dots: false,
+    auto: true,
+    margin: 20
   });
 });
