@@ -443,16 +443,33 @@ body {
   font-family: "Proxima Nova Condensed Bold", sans-serif;
 }
 
+.machine-list {
+  margin: 0;
+}
+
+.machine-list__title {
+  margin-top: 20px;
+  font-family: "Proxima Nova Condensed Bold", sans-serif;
+}
+
+.machine-list__item {
+  margin: 3px 0 0;
+}
+
 .float-right {
-  float: right;
+  float: right !important;
 }
 
 .text-right {
-  text-align: right;
+  text-align: right !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
 }
 
 .mb-10 {
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 
 /* - Footer - */
