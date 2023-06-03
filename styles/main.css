@@ -553,6 +553,27 @@ body {
   background: url("../images/icon-pagination-arrow.png") no-repeat center bottom;
 }
 
+/* - Table - */
+.table {
+  width: 100%;
+}
+
+.table__column {
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+}
+
+.table__link {
+  font-size: 14px;
+  color: #444;
+  text-decoration: none;
+}
+
+.table__link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
 /* - Footer - */
 .footer {
   margin-top: 50px;
