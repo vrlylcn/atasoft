@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
 :focus {
   outline: none
 }
@@ -640,6 +645,112 @@ body {
   color: #fff;
   background-color: #0a558f;
   border-color: #0c4b7c;
+}
+
+/* - Contact Page - */
+.contact-page {
+  width: 100%;
+  padding: 20px;
+}
+
+.google-maps {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.google-maps__iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.contact-page__container  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.contact-form__label,
+.contact-form__input,
+.contact-form__textarea {
+  display: block;
+  width: 100%;
+}
+
+.contact-form__label {
+  margin-bottom: 8px;
+  color: #000;
+  font-size: 16px;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+  padding: 8px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  color: #000;
+  border: 1px solid #bdbdbd;
+  box-shadow: inset 2px 2px 0 rgba(0, 0, 0, .1);
+}
+
+.contact-form__input:focus,
+.contact-form__textarea:focus {
+  border-color: #4469b0;
+  box-shadow: none;
+}
+
+.contact-form__button {
+  padding: 10px 23px;
+  color: #fff;
+  background-color: #0a558f;
+  border: 1px solid #0c4b7c;
+  font-family: "Proxima Nova Condensed Semibold", sans-serif;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.contact-page__right {
+  width: 100%;
+  max-width: 440px;
+  padding-left: 20px;
+}
+
+.contact-page__title {
+  display: block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #4469b0;
+  font-size: 24px;
+  font-family: "Proxima Nova Condensed Bold", sans-serif;
+  border-bottom: 2px solid #ddd;
+}
+
+.contact-page__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.contact-page__list-item {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #4469b0;
+  line-height: 22px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.contact-page__list-link {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+.contact-page__list-link:hover {
+  text-decoration: underline;
 }
 
 /* - Footer - */
