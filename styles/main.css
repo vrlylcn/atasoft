@@ -541,12 +541,14 @@ body {
   text-decoration: none;
 }
 
+.pagination__item.is-active,
 .pagination__item:hover {
   color: #fff;
   text-shadow: 0 1px 0 #073c64;
   background: url("../images/bg-pagination-active.jpg") repeat-x;
 }
 
+.pagination__item.is-active::after,
 .pagination__item:hover::after {
   content: "";
   position: absolute;
