@@ -1,6 +1,6 @@
 # ATAsoft Kurumsal Teknoloji Çözümleri
 
-ATAsoft Kurumsal Teknoloji Çözümleri ülkemizin ilk Türkçe yazılımlarını geliştirmek amacıyla Şubat 1996'da kurulmuştur. 2005 yılında ticari unvanında değişikliğe giderek şirketleşen ATAsoft, kayıtlı sermayesini 100.000 TL'ye yükseltmiştir. Firmamızın kurumsal teknoloji alanındaki çözümleri halen "ATAsoft" markasıyla devam etmektedir.
+ATAsoft Kurumsal Teknoloji Çözümleri, Şubat 1996'da ülkemizin ilk Türkçe yazılımlarını geliştirmek vizyonu ile kurulmuştur. Zaman içerisinde elektronik güvenlik sistemleri, yerli araç takip sistemleri ve 2005 yılında Vodafone Türkiye Çözüm Ortaklığı'nı da faliyetleri arasına ilave eden ATAsoft, telekomünikasyon sektöründe çalışmalarını halen "cepdolusu" markasıyla devam ettirmektedir. Aynı zamanda 2009 yılında ambalaj sektöründe faaliyetlerine başlayan ATAsoft, "KobiDepo" markası ile OSB işletmelerine lazım olabilecek hemen her türlü plastik ve kağıt ambalaj malzemelerinin üretimine başlamıştır.
 
 **Kullanılan Teknolojiler:** HTML, CSS ve JavaScript
 
